@@ -16,7 +16,8 @@ A planned Windows GUI wizard for deploying Microsoft 365 Apps with the official 
 - No redistribution of Microsoft 365 Apps binaries.
 
 ## Base architecture (scaffolded)
-- `src/M365OdtWizard.App`: WPF UI scaffold (`net8.0-windows`) with a starter `MainWindow`.
-- `src/M365OdtWizard.Core`: project scaffold with placeholder folders (`Models`, `Interfaces`, `UseCases`).
-- `src/M365OdtWizard.Infrastructure`: project scaffold with placeholder folders (`Odt`, `OfficeDetection`, `Xml`, `Logging`, `Extensions`).
-- `tests/`: test folder scaffold (`M365OdtWizard.Core.Tests`, `M365OdtWizard.Infrastructure.Tests`) reserved for future test projects.
+- `ui/`: WPF UI project (`M365OdtWizard.App`) with starter `MainWindow`.
+- `core/`: .NET class library project (`M365OdtWizard.Core`) for business/domain logic.
+- `m365-odt-wizard.sln`: solution containing both `M365OdtWizard.App` and `M365OdtWizard.Core`.
+
+As the app grows, add implementation in `core/` first and keep `ui/` focused on presentation.
