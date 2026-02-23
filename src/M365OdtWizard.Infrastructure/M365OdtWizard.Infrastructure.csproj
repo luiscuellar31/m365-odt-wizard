@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>M365OdtWizard.Infrastructure</AssemblyName>
+    <RootNamespace>M365OdtWizard.Infrastructure</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\M365OdtWizard.Core\M365OdtWizard.Core.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>M365OdtWizard.Core</AssemblyName>
+    <RootNamespace>M365OdtWizard.Core</RootNamespace>
+  </PropertyGroup>
+</Project>

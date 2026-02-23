@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <AssemblyName>M365OdtWizard.App</AssemblyName>
+    <RootNamespace>M365OdtWizard.App</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\M365OdtWizard.Core\M365OdtWizard.Core.csproj" />
+    <ProjectReference Include="..\M365OdtWizard.Infrastructure\M365OdtWizard.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
