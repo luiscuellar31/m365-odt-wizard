@@ -9,7 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\M365OdtWizard.Core\M365OdtWizard.Core.csproj" />
-    <ProjectReference Include="..\M365OdtWizard.Infrastructure\M365OdtWizard.Infrastructure.csproj" />
+    <ProjectReference Include="..\core\M365OdtWizard.Core.csproj" />
   </ItemGroup>
 </Project>
