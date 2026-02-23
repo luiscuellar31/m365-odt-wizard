@@ -1,0 +1,52 @@
+<Window x:Class="M365OdtWizard.App.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="m365-odt-wizard"
+        Height="620"
+        Width="980"
+        MinHeight="520"
+        MinWidth="760"
+        WindowStartupLocation="CenterScreen">
+  <Grid Margin="20">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="Auto" />
+      <RowDefinition Height="*" />
+    </Grid.RowDefinitions>
+
+    <TextBlock Grid.Row="0"
+               Text="m365-odt-wizard"
+               FontSize="28"
+               FontWeight="SemiBold"
+               Margin="0,0,0,8" />
+
+    <TextBlock Grid.Row="1"
+               Text="Base UI ready. Next step: build the first wizard page."
+               Margin="0,0,0,16"
+               Foreground="#FF454545" />
+
+    <Border Grid.Row="2"
+            Background="White"
+            BorderBrush="#FFD8D8D8"
+            BorderThickness="1"
+            CornerRadius="8"
+            Padding="16">
+      <StackPanel>
+        <TextBlock Text="Starter Checklist"
+                   FontSize="18"
+                   FontWeight="SemiBold"
+                   Margin="0,0,0,8" />
+
+        <TextBlock Text="1. Define basic navigation between steps." Margin="0,0,0,6" />
+        <TextBlock Text="2. Create app selection page UI only." Margin="0,0,0,6" />
+        <TextBlock Text="3. Add state model for selected apps." Margin="0,0,0,6" />
+        <TextBlock Text="4. Add config XML generation later." Margin="0,0,0,12" />
+
+        <StackPanel Orientation="Horizontal">
+          <Button Content="Start" />
+          <Button Content="Next" />
+        </StackPanel>
+      </StackPanel>
+    </Border>
+  </Grid>
+</Window>
