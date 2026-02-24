@@ -43,8 +43,8 @@
         <TextBlock Text="4. Add config XML generation later." Margin="0,0,0,12" />
 
         <StackPanel Orientation="Horizontal">
-          <Button Content="Start" />
-          <Button Content="Next" />
+          <Button Content="Start" Width="60" Margin="0,0,20,0" Padding="0,2,0,2"/>
+          <Button Content="Next" Width="60" Margin="0,0,0,0" Padding="0,2,0,2"/>
         </StackPanel>
       </StackPanel>
     </Border>
